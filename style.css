@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 150px;
+  padding: 10px;
+  position: static;
+}
+
+.nav-feats {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  color: hsl(229, 8%, 60%);
+}
+
+.nav-feats h3:hover {
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+.nav-feats button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: hsl(0, 94%, 66%);
+  border: hsl(0, 94%, 66%) solid 1px;
+  color: white;
+}
+.nav-feats button:hover {
+  background-color: white;
+  color: hsl(0, 94%, 66%);
+}
+.header {
+  margin: 30px;
+  margin-right: 150px;
+  padding-left: 140px;
+}
+.simple {
+  display: flex;
+  margin: 50px;
+  width: 70%;
+  line-break: auto;
+  line-height: 50px;
+}
+
+.manage {
+  margin: 30px;
+  padding: 15px;
+}
+.manage h1 {
+  color: hsl(229, 31%, 21%);
+}
+.manage h3 {
+  color: hsl(229, 8%, 60%);
+}
+.chrome {
+  color: white;
+  background-color: #5368df;
+  padding: 15px;
+  border: white solid 1px;
+  margin-right: 40px;
+}
+.chrome:hover {
+  background-color: white;
+  color: #5368df;
+  border: #5368df solid 1px;
+}
+.firefox {
+  padding: 15px;
+  color: #5368df;
+  border: white solid 1px;
+  box-shadow: right 3px black;
+}
+.firefox:hover {
+  border: #5368df solid 1px;
+}
+.shad {
+  position: relative;
+}
+.header-img {
+  width: 300px;
+}
+
+.bg-img {
+  z-index: -1;
+  position: absolute;
+  background-color: #5368df;
+  padding: 13% 18%;
+  right: 10px;
+  bottom: 200px;
+  border-radius: 0 0 0 50%;
+}
+
+.feats {
+  text-align: center;
+}
+
+.feats h1 {
+  color: hsl(229, 31%, 21%);
+  padding: 10px;
+}
+.feats p {
+  color: hsl(229, 8%, 60%);
+  padding: 5px;
+}
+
+.feat-ls {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px;
+}
+
+.simple1 {
+  display: flex;
+  margin-left: 150px;
+  width: 70%;
+  line-break: auto;
+  line-height: 50px;
+  justify-content: center;
+}
+
+.manage1 {
+  margin-left: 20px;
+  padding: 15px;
+}
+.manage1 h1 {
+  color: hsl(229, 31%, 21%);
+}
+.manage1 h3 {
+  color: hsl(229, 8%, 60%);
+}
+
+.shad1 {
+  position: relative;
+  margin: 30px;
+}
+.header-img1 {
+  width: 300px;
+}
+
+.bg-img1 {
+  z-index: -1;
+  position: absolute;
+  background-color: #5368df;
+  padding: 13% 18%;
+  left: -30px;
+  top: 150px;
+  border-radius: 0% 0 50% 0%;
+}
+
+.plus {
+  margin: 30px;
+  padding: 40px;
+}
+
+.browser {
+  display: flex;
+  gap: 20px;
+  margin-left: 300px;
+
+  position: relative;
+}
+
+.gchrome {
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 5px;
+  margin: 0 50px;
+  padding: 30px;
+}
+
+.fire {
+  position: absolute;
+  top: 30px;
+  left: 250px;
+}
+
+.opera {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+.extension{
+  padding: 30px;
+  text-align: center;
+}
+.extension button{
+  margin: 30px;
+}
+.extens{
+  display: flex;
+  padding: 10px;
+  gap: 70px;
+  justify-content: center;
+}
+.extens:hover{
+  color:hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+.contact{
+  text-align: center;
+  background-color: #5368df;
+  padding: 100px;
+  color: white;
+}
+
+.contact h4{
+  padding: 20px;
+}
+.contact h2{
+  padding: 20px;
+}
+
+.contact input{
+  border-radius: 5px;
+  padding: 15px;
+  border: white solid 1px;
+}
+
+.contact button{
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  border: hsl(0, 94%, 66%) solid 1px;
+  padding: 10px;
+}
+
+.contact button:hover{
+  color: hsl(0, 94%, 66%);
+  background-color: white;
+  border: white solid 1px;
+}
+
+footer{
+  display: flex;
+  background-color: hsl(229, 31%, 21%);
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer span{
+  color: white;
+}
+
